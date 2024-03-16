@@ -22,9 +22,9 @@ web_url_name = ['Web URL', 'Webhook', 'Google Sheets', 'Google Slides', 'Google 
 web_url_image = ['web_url.png', 'webhook.png', 'google_sheets.png', 'google_Slides.png', 'google_docs.png', 'elasticsearch.png']
 
 row1 = st.columns(3)
-row2 = st.columns(3)
+# row2 = st.columns(3)
 
-for i, col in enumerate(row1 + row2):
+for i, col in enumerate(row1):
     tile = col.container(height=120)
     text = 'Web URL'
     link = 'Web URL Link'
